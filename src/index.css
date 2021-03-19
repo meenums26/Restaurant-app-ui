@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.mainContainer,.mainContent{
+    width:100%;
+    padding:0;
+}
+
+/* Header Section */
+.headerSection{
+    position:absolute;
+    z-index: 1;
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:50px 100px 50px 100px;
+    background:transparent;
+    color:#ffff;
+}
+.subHeaderSection{
+    position:fixed;
+    z-index: 1;
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:50px 100px 50px 100px;
+    background:#ffff;
+    box-shadow: 0 8px 6px -6px rgb(194, 192, 192);
+}
+.subHeaderSection .menu ul li span{
+    font-size: medium;
+    color:black;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: xx-large;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 100px;
+    color:#0000;
+}
+.headerSection .menu ul li span{
+    color:#ffff;
+    font-size: medium;
+}
+/* Header Section End */
+.landingSection{
+    width:100%;
+    height:60vh;
+    background-image: linear-gradient(rgba(2, 6, 20, 0.5),rgba(15, 16, 17,0.5)),url('./images/home.jpg');
+    background-repeat: none;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchSection{
+    width:800px;
+}
+.advQuote{
+    text-align: center;
+    width:100%;
+    color:white
+}
+#quote1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#quote2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.restuarants .container{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.restuarants .container .card{
+    width:23%;
+    height:320px;
+    padding:10px;
+    margin:10px;
+   
+}
+.restuarants .container .card .card-img-top{
+    width:100%;
+    height:180px;
+}
+.restuarants .container .card .card-title{
+    font-size: 15px;
+}
+.shop{
+    position: relative;
+    top:120px;
+    padding:10px 100px 10px 100px;
+}
+.shop .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shopImg{
+   width:60%;
+   border:1px solid transparent;
+   box-shadow: 0 8px 6px -6px rgb(56, 55, 55);
+border-radius: 8px;
+}
+.shopImg img{
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+}
+.shopDetails{
+    width:35%;
+    height: 100%;
+}
+.shopDetails #shopName{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+#operatingTime{
+    width:90%;
+    color:white;
+    font-size: 1rem;
+    background-color: rgb(17, 17, 17);
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    bottom: 0px;
+}
+#operatingTime #title{
+    text-align: center;
+}
+.menuTime{
+    display: flex;
+    align-items: center;
+}
+.menuTime .day{
+    width:30%;
+    
+}
+.mentTime .time{
+    width:60%;
+}
+.reviews{
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+.searchRestaurants{
+    position: relative;
+    top:120px;
+}
+.searchRestaurants .container .card{
+    width:23%;
+    height:320px;
+    padding:10px;
+    margin:10px;
+   
+}
+
+.footerSection{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:80px;   /* Height of the footer */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}

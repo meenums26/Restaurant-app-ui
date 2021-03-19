@@ -1,0 +1,137 @@
+@media screen and (max-width:425px){
+    .menu span{
+        font-size: 20px;
+    }
+    .searchSection{
+        width:80%;
+    }
+    
+    #quote1{
+        font-size: 25px;
+
+    }
+    #quote2{
+        font-size: 15px;
+    }
+    .restuarants .container .card{
+        width:98%;
+    }
+    .searchRestaurants .container .card{
+        width:98%;
+    }
+    .mainContent{
+        width:100%;
+    }
+    .shop{
+        width:100%;
+        padding: 0;
+        top:120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .shop .row{
+        width:100%;
+    }
+    .shopImg{
+       width:100%;
+       border-radius:0px;
+    }
+    .shopImg img{
+        width:100%;
+        height:100%;
+        border-radius: 0px;
+    }
+    .shopDetails{
+        width:100%;
+        padding:10px;
+    }
+    .shopDetails #shopName{
+        font-size: 20px;
+    }
+    .shopDetails #operatingTime{
+        width:100%;
+        font-size: 10px;
+        padding: 15px 5px 15px 5px;
+    }
+    .shopDetails #operatingTime .menuItem .day{
+        width:30%;
+    }
+    .shopDetails #operatingTime .menuItem .time{
+        width:70%;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+    .footerSection{
+        padding:2px;
+        font-size: smaller;
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .searchSection{
+        width:80%;
+    }
+    #quote1{
+        font-size: 30px;
+
+    }
+    #quote2{
+        font-size: 20px;
+    }
+    .restuarants .container .card{
+        width:46%;
+    }
+    .searchRestaurants .container .card{
+        width:46%;
+    }
+    .shop{
+        padding:10px 40px 10px 40px;
+    }
+    .shop .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .shopImg{
+       width:100%;
+       padding:5px;
+       border: 0px;
+    }
+    .shopImg img{
+        width:100%;
+        height:100%;
+        border: 0px;
+    }
+    .shopDetails{
+        width:100%;
+        padding:5px;
+    }
+    .shopDetails #operatingTime{
+        width:100%;
+        font-size: 16px;
+        padding: 15px 50px 15px 50px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .restuarants .container .card{
+        width:30.33%;
+    }
+    .searchRestaurants .container .card{
+        width:30.33%;
+    }
+    .shopDetails #operatingTime{
+        width:100%;
+        font-size: 16px;
+        padding: 15px 5px 15px 5px;
+    }
+    .shopImg{
+        width:45%;
+    }
+    .shopDetails{
+        width:50%;
+    }
+}
